@@ -134,7 +134,7 @@ git clone https://github.com/Gb1201/PortfolioPessoal.git
 
 2. Acesse a pasta do projeto:
 ```bash
-cd portfolio
+cd MEUPORTFOLIO
 ```
 
 3. Instale as dependências:
