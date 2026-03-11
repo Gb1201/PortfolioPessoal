@@ -13,7 +13,7 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: 'Portfólio | Desenvolvedor Full Stack',
+  title: 'Portfólio | Desenvolvedor Back-End',
   description:
     'Portfólio profissional com projetos, experiências e habilidades em desenvolvimento de software.',
   icons: {
