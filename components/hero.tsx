@@ -8,7 +8,7 @@ export function Hero() {
           Olá, meu nome é
         </p>
         <h1 className="mb-4 text-5xl font-bold tracking-tight text-foreground md:text-7xl text-balance">
-          Gabriel
+          Gabriel Santos
         </h1>
         <h2 className="mb-6 text-3xl font-bold text-muted-foreground md:text-5xl text-balance">
           Dev Back-End
