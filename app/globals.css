@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
 @import 'tailwindcss';
 @import 'tw-animate-css';
+
 
 @custom-variant dark (&:is(.dark *));
 
@@ -40,7 +43,7 @@
 }
 
 @theme inline {
-  --font-sans: 'Inter', 'Geist', 'Geist Fallback', sans-serif;
+  --font-sans: 'DotGothic16', sans-serif;
   --font-mono: 'Geist Mono', 'Geist Mono Fallback', monospace;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -85,8 +88,9 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
-  }
+  @apply bg-background text-foreground;
+  font-family: var(--font-sans);
+}
   html {
     scroll-behavior: smooth;
   }
