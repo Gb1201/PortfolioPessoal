@@ -38,6 +38,61 @@ const projects: Project[] = [
     githubUrl: "https://github.com/pm-puc-minas/calculo-folha-pagamento-teorica-grupo4",
     image: "/folha.png?height=300&width=500",
   },
+  {
+    year: "2026.1",
+    title: "PetCare",
+    description:
+      "Aplicativo móvel de prontuário digital voltado para ONGs de proteção animal. Centraliza informações de saúde, cuidados e histórico dos animais resgatados em uma única plataforma digital, substituindo o controle manual feito em papéis, planilhas e mensagens. Repositório privado.",
+    technologies: ["React Native"],
+    githubUrl: "https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2026-1-ti4-3170100-petcare",
+    image: "/petcare.png?height=300&width=500",
+  },
+  {
+    year: "2025.1",
+    title: "Room Booking System",
+    description:
+      "Sistema para gerir reservas de salas de reunião na Xulambs Inc., otimizando a organização e utilização dos espaços. Controla salas considerando capacidade, recursos disponíveis e horários, com verificação de disponibilidade para evitar conflitos de agendamento. Permite a gestão de clientes particulares e empresariais, com concessão de descontos a clientes empresariais, e calcula o custo de utilização da sala com base no momento da reserva. Repositório privado.",
+    technologies: ["Java"],
+    githubUrl: "https://github.com/pucmg-aulas/roombookings-g1-noite-projectrentaroom",
+    image: "/roombooking.png?height=300&width=500",
+  },
+  {
+    year: "2026.1",
+    title: "Sistema de Aluguel de Automóveis",
+    description:
+      "Sistema web para apoio à gestão de aluguéis de automóveis, permitindo efetuar, cancelar e modificar pedidos através da Internet. Contempla dois perfis de usuário: clientes (usuários individuais) e agentes (empresas e bancos), cada um com permissões distintas para interação com os pedidos de aluguel.",
+    technologies: ["Java"],
+    githubUrl: "https://github.com/Gb1201/SistemaAluguel",
+    image: "/aluguel.png?height=300&width=500",
+  },
+  {
+    year: "2026.1",
+    title: "CoinClass - Sistema de Moeda Estudantil",
+    description:
+      "Plataforma web desenvolvida para gerenciar um sistema de mérito acadêmico baseado em moedas virtuais. Permite que alunos acumulem moedas por desempenho e possam trocá-las por benefícios oferecidos por empresas parceiras.",
+    technologies: ["Java"],
+    githubUrl: "https://github.com/Gb1201/SistemaMoedaEstudantil",
+    image: "/coinclass.png?height=300&width=500",
+  },
+  {
+    year: "2026.1",
+    title: "Site ER - 3ª Igreja Batista de Cabo Frio",
+    description:
+      "Site institucional da organização Missionária da Terceira Igreja Batista em Cabo Frio.",
+    technologies: ["Next.js", "React"],
+    githubUrl: "https://github.com/Gb1201/site_er",
+    liveUrl: "https://site-er.vercel.app/",
+    image: "/siteer.png?height=300&width=500",
+  },
+  {
+    year: "2026.1",
+    title: "Bolão do Flamengo",
+    description:
+      "Sistema de bolão para gerenciar os palpites dos jogos do Flamengo.",
+    technologies: ["JavaScript"],
+    githubUrl: "https://github.com/Gb1201/deploy_frontend",
+    image: "/bolao.png?height=300&width=500",
+  },
 ]
 
 export function Projects() {
