@@ -29,6 +29,17 @@ const projects: Project[] = [
     githubUrl: "https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2025-1-ti2-3740100-gerenciamento-de-vans",
     image: "/vans.png?height=300&width=500",
   },
+
+  {
+    year: "2025.1",
+    title: "Room Booking System",
+    description:
+      "Sistema para gerir reservas de salas de reunião na Xulambs Inc., otimizando a organização e utilização dos espaços. Controla salas considerando capacidade, recursos disponíveis e horários, com verificação de disponibilidade para evitar conflitos de agendamento. Permite a gestão de clientes particulares e empresariais, com concessão de descontos a clientes empresariais, e calcula o custo de utilização da sala com base no momento da reserva. Repositório privado.",
+    technologies: ["Java"],
+    githubUrl: "https://github.com/pucmg-aulas/roombookings-g1-noite-projectrentaroom",
+    image: "/roombooking.png?height=300&width=500",
+  },
+  
   {
     year: "2025.2",
     title: "Oeve RH",
@@ -46,15 +57,6 @@ const projects: Project[] = [
     technologies: ["React Native"],
     githubUrl: "https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2026-1-ti4-3170100-petcare",
     image: "/petcare.png?height=300&width=500",
-  },
-  {
-    year: "2025.1",
-    title: "Room Booking System",
-    description:
-      "Sistema para gerir reservas de salas de reunião na Xulambs Inc., otimizando a organização e utilização dos espaços. Controla salas considerando capacidade, recursos disponíveis e horários, com verificação de disponibilidade para evitar conflitos de agendamento. Permite a gestão de clientes particulares e empresariais, com concessão de descontos a clientes empresariais, e calcula o custo de utilização da sala com base no momento da reserva. Repositório privado.",
-    technologies: ["Java"],
-    githubUrl: "https://github.com/pucmg-aulas/roombookings-g1-noite-projectrentaroom",
-    image: "/roombooking.png?height=300&width=500",
   },
   {
     year: "2026.1",
